@@ -30,15 +30,17 @@ This research investigates UDOIT's usage patterns across semesters, colleges, an
 • **RQ6**: What are possible areas of improvement in UDOIT training for faculty and staff?
 
 ## Repository Contents
-• **Final_Report**: Contains the detailed project report and findings.
-
-• **Data/**: Includes processed anonymized dataset used in the analysis.
-
 • **Axiomatic System Design**: Axiomatic system design brief description.
 
 • **Data Preparation and Processing**: Contains code and functions used for data extraction, cleaning, and manipulation.
 
+• **Data/**: Includes processed anonymized dataset used in the analysis.
+
 • **Data Analysis and Visualizations**: Includes results, charts, and graphs generated during the analysis.
 
 • **Conclusions + Limitations and Future Considerations**: Main findings, limitations, and potential avenues for future research.
+
+• **Final_Report**: Contains the detailed project report and findings.
+
+
 
