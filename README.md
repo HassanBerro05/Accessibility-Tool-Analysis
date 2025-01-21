@@ -34,9 +34,11 @@ This research investigates UDOIT's usage patterns across semesters, colleges, an
 
 • **Data/**: Includes processed anonymized dataset used in the analysis.
 
+• **Axiomatic System Design**: Axiomatic system design brief description.
+
 • **Data Preparation and Processing**: Contains code and functions used for data extraction, cleaning, and manipulation.
 
-• **Data Analysis and Visualizations**: Includes resuts, charts, and graphs generated during the analysis.
+• **Data Analysis and Visualizations**: Includes results, charts, and graphs generated during the analysis.
 
 • **Conclusions + Limitations and Future Considerations**: Main findings, limitations, and potential avenues for future research.
 
