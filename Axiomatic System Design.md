@@ -91,4 +91,8 @@ _For a complete list, see the full report in the repository._
 
 <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%204%20UDOIT%20Processing%20Mapping.png" alt="UDOIT Processing Map" width="600" height="300">
 
+The process starts with the tool accessing the internal storage where the LMS database is stored. The tool derives its data on Canvas from this internal storage and uses it to run scans for accessibility issues. Next, the faculty/staff member accesses the tool and initiates a scan of course materials. The tool then scans the course materials for any accessibility issues, such as images without alternative text, tables without proper headers, and videos without captions.
+
+Once the scan is complete, the tool generates a report listing any accessibility issues found in course materials. The faculty/staff member then reviews the report and fixes the identified accessibility issues. After the accessibility issues are fixed, course materials are resubmitted for another scan. If no further issues are found, course materials are deemed accessible and can be made available to students without any discrepancies in accessing them.
+
 
