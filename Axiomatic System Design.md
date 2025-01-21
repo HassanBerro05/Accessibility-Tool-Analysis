@@ -29,9 +29,10 @@ ASD divides the design process into:
 | FR2     | Subaccount Tracking: the system must be able to identify subaccounts, i.e., colleges or schools pertinent to each UDOIT scan.               | CN2           |
 | FR3     | Error Tracking: the system must be able to track the type and quantity of each individual error.  | CN3, CN4          |
 | FR4     | Temporal Tracking: the system should be able to track the usage of UDOIT and the occurrence of errors over time, particularly with the procession of the relevant semesters              | CN2, CN4          |
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%206%20CN-FR%20Mapping%20Process.png?raw=true" alt="CN-FR Mapping" width="400" height="300">
 
 ---
-<img src="https://raw.githubusercontent.com/HassanBerro05/Accessibility-Tool-Analysis/main/Viz/Figure%201%20Axiomatic%20Design.png" alt="Axiomatic Design">
+
 
 ### **Mapping Research Questions (RQ) to Functional Requirements**
 | **RQ** | **Research Question**                                           | **Mapped FR**          |
@@ -44,6 +45,7 @@ ASD divides the design process into:
 | RQ6    | What are potential improvements in UDOIT training?              | FR1                   |
 
 ---
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%208.png?raw=true" alt="RQ-FR Mapping" width="600" height="300">
 
 ## **UDOIT Overview**
 
@@ -59,12 +61,13 @@ UDOIT is an open-source tool developed by the Center for Distributed Learning (C
 - Files (HTML)  
 
 ### **Common Accessibility Problem Areas**
+**Each scan targets the following problem areas:**
 - Use of headings in page structure.  
 - Alternative text for images.  
 - Table headers.  
 - Color contrast.  
 - Video captions.  
-
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%202%20Sample%20UDOIT%20Report.png?raw=true" alt="RQ-FR Mapping" width="600" height="300">
 ---
 
 ### **Error Types Identified by UDOIT**
