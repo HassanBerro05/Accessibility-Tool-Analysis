@@ -32,7 +32,7 @@ This research investigates UDOIT's usage patterns across semesters, colleges, an
 ## Repository Contents
 • **Axiomatic System Design**: Axiomatic system design brief description.
 
-• **Data Preparation and Processing**: Contains code and functions used for data extraction, cleaning, and manipulation.
+• **Data Preparation and Processing**: Contains codes and functions used for data extraction, cleaning, and manipulation.
 
 • **Data/**: Includes processed anonymized dataset used in the analysis.
 
