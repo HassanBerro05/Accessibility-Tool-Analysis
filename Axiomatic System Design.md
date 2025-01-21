@@ -86,3 +86,9 @@ _For a complete list, see the full report in the repository._
 ---
 <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%203%20Error%20Remediation%20In%20Progress.png" alt="UDOIT Error Sample" width="600" height="300">
 
+
+**The functionality of UDOIT can be summarized by the process mapping as depicted below:**
+
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%204%20UDOIT%20Processing%20Mapping.png" alt="UDOIT Processing Map" width="600" height="300">
+
+
