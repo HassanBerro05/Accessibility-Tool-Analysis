@@ -191,9 +191,5 @@ FROM job_queue;
 
 ---
 
-## 7. Lessons Learned
-This optional section could include:
-- Challenges encountered during data extraction and cleansing.
-- Importance of collaboration with ITS for resolving data ambiguities.
-- Key takeaways for future projects involving JSON parsing and data confidentiality.
+
 
