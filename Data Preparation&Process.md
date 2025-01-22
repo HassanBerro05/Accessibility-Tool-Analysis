@@ -16,7 +16,7 @@ This section introduces the dataset, its origin, and the scope of analysis.
     - `suggestions`: Suggestions generated.
     - `report_json_cleaned`: A JSON field containing detailed error summaries, including error types and their counts, as well as course-specific details.
 
-    <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2010.png" alt="Sample of data" title="Sample of Data"  width="600" height="300">
+    <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2010.png" alt="Sample of data" title="Sample of Data"  width="700" height="200">
 ---
 
 ## 2. Data Extraction
@@ -27,7 +27,7 @@ This section explains how the raw data was retrieved and prepared for initial us
    - Use DBeaver to connect to the Heroku Postgres database with credentials provided by ITS.
    - Navigate to the "Reports" table under the "Data" tab.
 
-   <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2034.png?raw=true" alt="Dbeaver" width="600" height="300">
+   <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2034.png?raw=true" alt="Dbeaver" width="500" height="300">
   
 2. **Export Data**:
    - Export the table content as a CSV file.
@@ -37,9 +37,9 @@ This section explains how the raw data was retrieved and prepared for initial us
 3. **Date Formatting**:
    - If `date_run` appears in an unconventional format:
      - Double-click the first entry to reset it to a standard date and time format.
-     - Use Excel’s format painter to apply the corrected format across the column.
+     - Use Excelâ€™s format painter to apply the corrected format across the column.
 
-  <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2035.png?raw=true" alt="Excel Painter" width="600" height="300">
+  <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2035.png?raw=true" alt="Excel Painter" width="400" height="300">
 
   
 ---
@@ -49,18 +49,18 @@ This section details the transformations applied to the dataset to make it ready
 
 ### 3.1 Parsing JSON Columns
 - **Objective**: Extract additional details embedded in the `report_json_cleaned` column.
-- **Approach**: SQL commands were used to parse JSON data for extracting course names and error details. For full scripts, refer to the [Extract Course Names SQL Script](#extract-course-names-sql-script) and [Parse Error Types and Counts] section.
+- **Approach**: SQL commands were used to parse JSON data for extracting course names and error details. For full scripts, refer to the [Extract Course Names SQL Script](#extract-course-names-sql-script) and [Parse Error Types and Counts](#parse-error-types-and-counts) section.
 - The Parse Error Types and Counts script produces output like that shown in Figure below, which includes, for each scan, its corresponding report ID, types of errors detected, and the number of each individual error.
-<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2036.png?raw=true" alt="Individual Errors Extracted" title="Individual Errors Extracted"  width="600" height="300">
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2036.png?raw=true" alt="Individual Errors Extracted" title="Individual Errors Extracted"  width="500" height="300">
 
 
 ### 3.2 Mapping Subaccounts
 - **Objective**: Associate each course with its subaccount and sub-subaccount for analysis.
 - **Approach**: Excel `VLOOKUP` functions were used to map `course_id` to `sub-subaccount` and `subaccount`. Details are available in the [Mapping Subaccounts with VLOOKUP](#mapping-subaccounts-with-vlookup) section.
-- 
- <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%203%20sub-subaccount%20mapping.png?raw=true" alt="Sub-sub account mapping" title="Sub-subaccount Mapping"  width="600" height="300">
+  
+ <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%203%20sub-subaccount%20mapping.png?raw=true" alt="Sub-sub account mapping" title="Sub-subaccount Mapping"  width="500" height="100">
 
- <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%204%20subaccount%20mapping.png?raw=true" alt="Subaccount Mapping" title="Subaccount Mapping" width="600" height="300">
+ <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%204%20subaccount%20mapping.png?raw=true" alt="Subaccount Mapping" title="Subaccount Mapping" width="500" height="100">
 
 ### 3.3 Anonymizing Users
 - **Objective**: Preserve user confidentiality while enabling user-specific analysis.
@@ -72,13 +72,9 @@ This section details the transformations applied to the dataset to make it ready
 ### 3.4 Extracting Target Areas
 - **Objective**: Identify Canvas areas targeted during scans.
 - **Approach**: SQL queries and Excel operations were used to parse and organize the scan area data. For specifics, see the [Extract Target Areas](#extract-target-areas) and [Binary Columns for Target Areas in Excel](#binary-columns-for-target-areas-in-excel) section.
-<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2011%20Sample%20information%20of%20Target%20Areas.png?raw=true" alt="Sample Information on Target Areas" title="Sample Information on Target Areas"  width="600" height="300">
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2011%20Sample%20information%20of%20Target%20Areas.png?raw=true" alt="Sample Information on Target Areas" title="Sample Information on Target Areas"  width="500" height="200">
 
-<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2012%20Sample%20Entry%20in%20Data%20Column.png?raw=true" alt="Sample Entry in Data Column" title="Sample Entry in Data Column"  width="600" height="300">
-
-<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%205%20Sample%20of%20Target%20Area%20Columns.png?raw=true" alt="Sample of Target Area Columns" title="Sample of Target Area Columns"  width="600" height="300">
-
-
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2012%20Sample%20Entry%20in%20Data%20Column.png?raw=true" alt="Sample Entry in Data Column" title="Sample Entry in Data Column"  width="500" height="200">
 
 ### 3.5 Manual Assessment for Additional Columns
 
