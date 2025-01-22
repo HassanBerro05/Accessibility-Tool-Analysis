@@ -38,7 +38,7 @@ This research investigates UDOIT's usage patterns across semesters, colleges, an
 
 • **Data Analysis and Visualizations**: Includes results, charts, and graphs generated during the analysis.
 
-• **Conclusions + Limitations and Future Considerations**: Main findings, limitations, and potential avenues for future research.
+• **Conclusions & Recommendations**: Main findings and recommendations on enhancing the further use of the tool.
 
 • **Final_Report**: Contains the detailed project report and findings.
 
