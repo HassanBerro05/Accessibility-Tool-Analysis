@@ -64,9 +64,9 @@ This section details the transformations applied to the dataset to make it ready
 
 ### 3.3 Anonymizing Users
 - **Objective**: Preserve user confidentiality while enabling user-specific analysis.
-- **Steps**:
-  1. Mapped `user_id` to anonymized IDs (`Anon_USER_ID`) using a one-to-one mapping system.
-  2. Manually classified users as faculty or staff by querying the university website and consulting ITS.
+- **Approach**:
+   - Mapped `user_id` to anonymized IDs (`Anon_USER_ID`) using a one-to-one mapping system.
+
 
   
 ### 3.4 Extracting Target Areas
