@@ -75,8 +75,6 @@ This section details the transformations applied to the dataset to make it ready
 - **Approach**: SQL queries and Excel operations were used to parse and organize the scan area data. For specifics, see the [Extract Target Areas](#extract-target-areas) and [Binary Columns for Target Areas in Excel](#binary-columns-for-target-areas-in-excel) section.
 <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2011%20Sample%20information%20of%20Target%20Areas.png?raw=true" alt="Sample Information on Target Areas" title="Sample Information on Target Areas"  width="500" height="200">
 
-<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2012%20Sample%20Entry%20in%20Data%20Column.png?raw=true" alt="Sample Entry in Data Column" title="Sample Entry in Data Column"  width="500" height="200">
-
 ### 3.5 Manual Assessment for Additional Columns
 
 #### 1. Faculty/Staff Column
