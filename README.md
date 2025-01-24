@@ -34,13 +34,11 @@ This research investigates UDOIT's usage patterns across semesters, colleges, an
 
 • **Data Preparation and Processing**: Contains codes and functions used for data extraction, cleaning, and manipulation.
 
-• **Data/**: Includes processed anonymized dataset used in the analysis.
-
 • **Data Analysis and Visualizations**: Includes results, charts, and graphs generated during the analysis.
 
 • **Conclusions & Recommendations**: Main findings and recommendations on enhancing the further use of the tool.
 
-• **Final_Report**: Contains the detailed project report and findings.
+
 
 
 
