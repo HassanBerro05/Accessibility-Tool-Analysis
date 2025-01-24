@@ -5,6 +5,9 @@ The University of Michigan is committed to providing a learning environment that
 
 This study leverages learning analytics to evaluate the efficacy of UDOIT in improving accessibility for online courses. Using Axiomatic System Design concepts, the research constructs a complete dataset from UDOIT output, answering predefined research questions with descriptive statistics and data visualizations. The findings guide ITS's future training efforts and inform strategies for enhancing digital accessibility at the University of Michigan.
 
+## Important Note
+Due to legal and confidentiality concerns, the original data used in this project cannot be shared publicly. However, this repository contains a detailed description of the analysis process, the work I contributed to the project, and the insights gained. Redacted visualizations have been included to demonstrate the depth of the analysis while protecting sensitive information.
+
 <h2>Tools Used</h2>
 
 - <b>SQL</b> 
