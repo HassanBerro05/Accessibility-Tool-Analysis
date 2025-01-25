@@ -51,6 +51,10 @@ This section details the transformations applied to the dataset to make it ready
 ### 3.1 Parsing JSON Columns
 - **Objective**: Extract additional details embedded in the `report_json_cleaned` column.
 - **Approach**: SQL commands were used to parse JSON data for extracting course names and error details. For full scripts, refer to the [Extract Course Names SQL Script](#extract-course-names-sql-script) and [Parse Error Types and Counts](#parse-error-types-and-counts) section.
+- The figure below shows a sample of the Extracted Columns
+  
+  <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%202%20Sample%20of%20Resulting%20Columnsc.PNG" alt="Individual Errors Extracted" title="Individual Errors Extracted"  width="500" height="300">
+
 - The Parse Error Types and Counts script produces output like that shown in Figure below, which includes, for each scan, its corresponding report ID, types of errors detected, and the number of each individual error.
 <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2036.png?raw=true" alt="Individual Errors Extracted" title="Individual Errors Extracted"  width="500" height="300">
 
