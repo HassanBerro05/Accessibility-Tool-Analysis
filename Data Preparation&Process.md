@@ -186,6 +186,7 @@ FROM job_queue;
   - 14 columns for individual error types.
   - 7 columns for Canvas target areas.
   - Additional columns for `subaccount`, `sub-subaccount`, and anonymized user IDs.
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%207%20Column%20in%20Last%20Dataset.png" alt="Dbeaver Sample" width="600" height="600">
 
 ### Key Features:
 - Cleaned and well-organized.
