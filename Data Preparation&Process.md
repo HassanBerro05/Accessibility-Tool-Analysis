@@ -16,7 +16,7 @@ This section introduces the dataset, its origin, and the scope of analysis.
     - `suggestions`: Suggestions generated.
     - `report_json_cleaned`: A JSON field containing detailed error summaries, including error types and their counts, as well as course-specific details.
   
-<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2010%20.png" alt="Dbeaver" width="800" height="300">
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2010c.PNG" alt="Dbeaver Sample" width="800" height="300">
     
 ---
 
