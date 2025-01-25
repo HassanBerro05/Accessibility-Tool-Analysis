@@ -59,7 +59,7 @@ This section details the transformations applied to the dataset to make it ready
 - **Objective**: Associate each course with its subaccount and sub-subaccount for analysis.
 - **Approach**: Excel `VLOOKUP` functions were used to map `course_id` to `sub-subaccount` and `subaccount`. Details are available in the [Mapping Subaccounts with VLOOKUP](#mapping-subaccounts-with-vlookup) section.
   
- <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%203%20sub-subaccount%20mapping.png?raw=true" alt="Sub-sub account mapping" title="Sub-subaccount Mapping"  width="500" height="100">
+ <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%203%20c.PNG" alt="Sub-sub account mapping" title="Sub-subaccount Mapping"  width="500" height="100">
 
  <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%204%20subaccount%20mapping.png?raw=true" alt="Subaccount Mapping" title="Subaccount Mapping" width="500" height="100">
 
