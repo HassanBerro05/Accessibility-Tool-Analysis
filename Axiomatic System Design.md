@@ -73,15 +73,33 @@ UDOIT is an open-source tool developed by the Center for Distributed Learning (C
 ### **Error Types Identified by UDOIT**
 The following table summarizes the 22 error types detected by UDOIT:
 
-| **Internal Name**                   | **UDOIT Output**                                   |
-|-------------------------------------|---------------------------------------------------|
-| `imgAltIsDifferent`                 | Alternative text should not be the image filename.|
-| `tableDataShouldHaveTh`             | No table headers found.                           |
-| `cssTextHasContrast`                | Insufficient text color contrast with background. |
-| `videoProvidesCaptions`             | No closed captions found.                         |
-| `brokenLink`                        | Broken link detected.                             |
+| **Internal Name**                | **UDOIT Output**                                                                 |
+|----------------------------------|---------------------------------------------------------------------------------|
+| imgAltsDifferent                 | Alternative Text should not be the image filename                              |
+| imgAltisTooLong                  | Alternative Text is more than the maximum allowed characters                   |
+| imgAltNotPlaceHolder             | Images should not have a simple placeholder text as an "alt" attribute         |
+| imgAltNotEmptyInAnchor           | Alt text for all img elements used as source anchors should not be empty       |
+| imgHasLongDesc                   | A "longdesc" attribute is required for any image where additional information not in the "alt" attribute is required |
+| imgHasAltDeco                    | Decorative images should have empty alternative text                           |
+| objectMustContainText            | Multimedia objects should have text equivalents (e.g., transcripts)            |
+| embedHasAssociatedNoEmbed        | All "embed" elements have an associated "noembed"                              |
+| tableDataShouldHaveTh            | No table headers found                                                         |
+| tableThShouldHaveScope           | No row or column scopes declarations found in headers of the table             |
+| basefontIsNotUsed                | "Basefont" should not be used                                                  |
+| fontIsNotUsed                    | "Font" elements should not be used                                             |
+| blinkIsNotUsed                   | The "blink" tag should not be used                                             |
+| marqueeIsNotUsed                 | The "marquee" tag should not be used                                           |
+| aMustContainText                 | Links should contain text                                                      |
+| cssTextHasContrast               | Insufficient text color contrast with the background                           |
+| headersHaveText                  | Headings should contain text                                                   |
+| videoProvidesCaptions            | No closed captions found on media content                                      |
+| videosEmbeddedOrLinkedNeedCaptions | No closed captions found                                                      |
+| brokenLink                       | Broken link detected                                                           |
+| headingLevelSkipped              | Heading levels should not be skipped                                           |
+| documentReadingDirection         | Reading direction of text is correctly marked                                  |
 
-_For a complete list, see the full report in the repository._  
+
+
 
 ---
 <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%203%20Error%20Remediation%20In%20Progress.png" alt="UDOIT Error Sample" width="600" height="300">
