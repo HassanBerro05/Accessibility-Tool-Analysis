@@ -33,11 +33,13 @@ This research investigates UDOIT's usage patterns across semesters, colleges, an
 • **RQ6**: What are possible areas of improvement in UDOIT training for faculty and staff?
 
 ## Repository Contents
+• **/Viz**: Includes all the visualizations used in the Project.
+
 • **Axiomatic System Design**: Axiomatic system design brief description.
 
 • **Data Preparation and Processing**: Contains codes and functions used for data extraction, cleaning, and manipulation.
 
-• **Data Analysis and Visualizations**: Includes results, charts, and graphs generated during the analysis.
+• **/Data Analysis and Visualizations**: Includes results, charts, and graphs generated during the analysis.
 
 • **Conclusions & Recommendations**: Main findings and recommendations on enhancing the further use of the tool.
 
