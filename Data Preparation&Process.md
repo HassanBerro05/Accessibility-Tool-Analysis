@@ -186,7 +186,46 @@ FROM job_queue;
   - 14 columns for individual error types.
   - 7 columns for Canvas target areas.
   - Additional columns for `subaccount`, `sub-subaccount`, and anonymized user IDs.
-<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%207%20Column%20in%20Last%20Dataset.png" alt="Dbeaver Sample" width="600" height="600">
+    
+| Variable                                    | Description                          | Categorical | Continuous |
+|--------------------------------------------|--------------------------------------|-------------|------------|
+| Course Name                                | Name of a course                     | ✔            |           |
+| Academic?                                  | Course type                          | ✔           |            |
+| Conforming?                                | Course conformity                    | ✔            |           |
+| Semester by Date                           | Semester by date                     | ✔           |            |
+| Semester by Type                           | Semester by type                     | ✔            |           |
+| Course ID                                  | Course identifier in Canvas          | ✔           |            |
+| Date                                       | Date a scan was run                  | ✔            |           |
+| User ID                                    | User identifier in Canvas            | ✔           |            |
+| Anon_USER_ID                               | Encrypted user ID                    | ✔            |           |
+| Username                                   | Name of a user                       | ✔           |            |
+| Faculty/Staff                              | Is user faculty or staff?            | ✔            |           |
+| Sub-Subaccount                             | Sub-subaccount of a course           | ✔           |            |
+| Subaccount                                 | Subaccount of a course               | ✔            |           |
+| Total Errors                               | Total errors for a scan              |             | ✔          |
+| brokenLink                                 | Errors of this type for a scan       |             | ✔          |
+| aMustContainText                           | Errors of this type for a scan       |             | ✔          |
+| imgAltIsDifferent                          | Errors of this type for a scan       |             | ✔          |
+| imgAltIsTooLong                            | Errors of this type for a scan       |             | ✔          |
+| imgAltNotEmptyInAnchor                     | Errors of this type for a scan       |             | ✔          |
+| imgHasAltDeco                              | Errors of this type for a scan       |             | ✔          |
+| tableDataShouldHaveTh                      | Errors of this type for a scan       |             | ✔          |
+| tableThShouldHaveScope                     | Errors of this type for a scan       |             | ✔          |
+| cssTextHasContrast                         | Errors of this type for a scan       |             | ✔          |
+| headersHaveText                            | Errors of this type for a scan       |             | ✔          |
+| videosEmbeddedOrLinkedNeedCaptions         | Errors of this type for a scan       |             | ✔          |
+| headingLevelSkipped                        | Errors of this type for a scan       |             | ✔          |
+| fontIsNotUsed                              | Errors of this type for a scan       |             | ✔          |
+| videoProvidesCaptions                      | Errors of this type for a scan       |             | ✔          |
+| Announcements?                             | Was this area scanned?               | ✔            |           |
+| Assignments?                               | Was this area scanned?               | ✔           |            |
+| Discussions?                               | Was this area scanned?               | ✔            |           |
+| Files?                                     | Was this area scanned?               | ✔           |            |
+| Pages?                                     | Was this area scanned?               | ✔            |          |
+| Syllabus?                                  | Was this area scanned?               | ✔           |            |
+| Module URLs?                               | Was this area scanned?               | ✔            |           |
+
+
 
 ### Key Features:
 - Cleaned and well-organized.
