@@ -50,8 +50,19 @@ This section explains how the raw data was retrieved and prepared for initial us
    - If `date_run` appears in an unconventional format:
      - Double-click the first entry to reset it to a standard date and time format.
      - Use Excel’s format painter to apply the corrected format across the column.
+   <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2035.png?raw=true" alt="Excel Painter" width="400" height="300">
 
-### Course Accessibility Report
+---
+
+## 3. Data Manipulation
+This section details the transformations applied to the dataset to make it ready for analysis.
+
+### 3.1 Parsing JSON Columns
+- **Objective**: Extract additional details embedded in the `report_json_cleaned` column.
+- **Approach**: SQL commands were used to parse JSON data for extracting course names and error details. For full scripts, refer to the [Extract Course Names SQL Script](#extract-course-names-sql-script) and [Parse Error Types and Counts](#parse-error-types-and-counts) section.
+- The figure below shows a sample of the Extracted Columns
+  
+  ### Course Accessibility Report
 
 | Course Name                         | EDUC --- WN 2021 | EDUC --- WN 2021 | DEV --- N2021_SV_V1 | DEV --- N2021_SV_V1 |
 |--------------------------------------|--------------|--------------|----------------|----------------|
@@ -69,20 +80,6 @@ This section explains how the raw data was retrieved and prepared for initial us
 | headingLevelSkipped                   | 0            | 0            | 0              | 0              |
 | fontIsNotUsed                         | 0            | 0            | 0              | 0              |
 | videoProvidesCaptions                 | 0            | 0            | 0              | 0              |
-
-
-  
----
-
-## 3. Data Manipulation
-This section details the transformations applied to the dataset to make it ready for analysis.
-
-### 3.1 Parsing JSON Columns
-- **Objective**: Extract additional details embedded in the `report_json_cleaned` column.
-- **Approach**: SQL commands were used to parse JSON data for extracting course names and error details. For full scripts, refer to the [Extract Course Names SQL Script](#extract-course-names-sql-script) and [Parse Error Types and Counts](#parse-error-types-and-counts) section.
-- The figure below shows a sample of the Extracted Columns
-  
-  <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%202%20Sample%20of%20Resulting%20Columnsc.PNG" alt="Individual Errors Extracted" title="Individual Errors Extracted"  width="500" height="300">
 
 - The Parse Error Types and Counts script produces output like that shown in Figure below, which includes, for each scan, its corresponding report ID, types of errors detected, and the number of each individual error.
 <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2036.png?raw=true" alt="Individual Errors Extracted" title="Individual Errors Extracted"  width="500" height="300">
