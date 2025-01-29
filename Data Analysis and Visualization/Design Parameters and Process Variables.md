@@ -93,7 +93,7 @@ To examine the frequency of UDOIT usage across semesters from Winter 2021 to Win
 By referring to academic calendars provided by UM for the relevant period, we mapped each scan date to its respective semester. 
 The mapping process is detailed in Table 9.
 
-**Table 9: Semester Mapping by Date**
+**Semester Mapping by Date**
 
 | Semester     | Start Date         | End Date           |
 |--------------|--------------------|--------------------|
