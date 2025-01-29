@@ -89,9 +89,23 @@ This section details the transformations applied to the dataset to make it ready
 - **Objective**: Associate each course with its subaccount and sub-subaccount for analysis.
 - **Approach**: Excel `VLOOKUP` functions were used to map `course_id` to `sub-subaccount` and `subaccount`. Details are available in the [Mapping Subaccounts with VLOOKUP](#mapping-subaccounts-with-vlookup) section.
   
- <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%203%20c.PNG" alt="Sub-sub account mapping" title="Sub-subaccount Mapping"  width="500" height="100">
+### Sub-subaccount Mapping
 
- <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Table%204%20subaccount%20mapping.png?raw=true" alt="Subaccount Mapping" title="Subaccount Mapping" width="500" height="100">
+| Course ID | Course Name       | Sub-subaccount            |
+|-----------|------------------|---------------------------|
+| 40XXXX    | Course XXXXX     | School Of Social Work    |
+| 40XXXX    | SW XXXXX         | School Of Social Work    |
+| 51XXXX    | ENGR XXXXX 2021  | College Of Engineering   |
+
+### Subaccount Mapping
+
+| Sub-subaccount from UDOIT | Subaccount            |
+|-----------|---------------------------|
+| Psychiatry Department    | Medical School    |
+| Astronomy Department    | College of Lit, Sci, and Arts    |
+| Materials Science & Engin    | College Of Engineering   |
+| Disability   | Non-Academic Program Courses   |
+
 
 ### 3.3 Anonymizing Users
 - **Objective**: Preserve user confidentiality while enabling user-specific analysis.
