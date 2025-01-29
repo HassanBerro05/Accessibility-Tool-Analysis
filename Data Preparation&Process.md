@@ -15,8 +15,8 @@ This section introduces the dataset, its origin, and the scope of analysis.
     - `errors`: Total number of errors detected in a scan.
     - `suggestions`: Suggestions generated.
     - `report_json_cleaned`: A JSON field containing detailed error summaries, including error types and their counts, as well as course-specific details.
+
       ### A Six Point Sample of Data
-# Course Report Data
 
 | id   | user_id | course_id | date_run                  | errors | suggestions | report_json_cleaned |
 |------|---------|-----------|---------------------------|--------|-------------|----------------------|
@@ -51,7 +51,25 @@ This section explains how the raw data was retrieved and prepared for initial us
      - Double-click the first entry to reset it to a standard date and time format.
      - Use Excel’s format painter to apply the corrected format across the column.
 
-  <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2035.png?raw=true" alt="Excel Painter" width="400" height="300">
+### Course Accessibility Report
+
+| Course Name                         | EDUC --- WN 2021 | EDUC --- WN 2021 | DEV --- N2021_SV_V1 | DEV --- N2021_SV_V1 |
+|--------------------------------------|--------------|--------------|----------------|----------------|
+| brokenLink                           | 0            | 0            | 0              | 0              |
+| aMustContainText                     | 0            | 0            | 6              | 6              |
+| imgAltIsDifferent                    | 1            | 0            | 28             | 59             |
+| imgAltIsTooLong                       | 0            | 0            | 0              | 0              |
+| imgAltNotEmptyInAnchor                | 0            | 0            | 0              | 0              |
+| imgHasAltDeco                         | 0            | 0            | 0              | 0              |
+| tableDataShouldHaveTh                 | 4            | 0            | 1              | 1              |
+| tableThShouldHaveScope                | 0            | 0            | 0              | 0              |
+| cssTextHasContrast                    | 0            | 0            | 0              | 0              |
+| headersHaveText                       | 0            | 0            | 0              | 0              |
+| videosEmbeddedOrLinkedNeedCaptions    | 0            | 0            | 0              | 0              |
+| headingLevelSkipped                   | 0            | 0            | 0              | 0              |
+| fontIsNotUsed                         | 0            | 0            | 0              | 0              |
+| videoProvidesCaptions                 | 0            | 0            | 0              | 0              |
+
 
   
 ---
