@@ -2,7 +2,7 @@
 
 ## Error Statistics
 
-### Descriptive Statistics for Errors (Table 14)
+### Descriptive Statistics for Errors (Table 1)
 
 The following table summarizes the descriptive statistics for the total errors detected in the dataset:
 
@@ -53,15 +53,17 @@ The errors were grouped into five accessibility problem areas:
 
 <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2027.png" alt="Excel Painter" width="500" height="300">
 
-### Error Group-Level Trends (Figure 28 and Table 15)
+### Error Group-Level Trends (Figure 4 and Table 2)
 
 #### Figure 28: Errors by Group
 
 The figure below illustrates:
 - **"Table Headers"** contributed the largest number of errors, followed by **"Alternative Text for Images"** and **"Page Headers/Text"**.
 - **"Video Captions"** had the fewest errors.
+- 
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2028.png" alt="Excel Painter" width="500" height="300">
 
-#### Table 15: Average Errors by Group
+#### Table 2: Average Errors by Group
 
 The following table shows the average errors per scan for each group:
 
