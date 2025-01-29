@@ -13,7 +13,7 @@ While reduced, this average remains **substantially high**, suggesting that **co
 2. **Raising awareness through targeted training sessions.**
 3. **Providing faculty and staff with structured design training.**
 
-## Remediation Trends by Error Group (Table 1)
+## Remediation Trends by Error Group 
 
 Our analysis extended to **remediation trends across error groups**, as shown in **Table 1**. Weighted averages were used to **account for variations in occurrence** among error types.
 
