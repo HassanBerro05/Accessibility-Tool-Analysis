@@ -1,12 +1,12 @@
 
 # RQ1: Frequency of UDOIT Usage Across Semesters
 
-## Semester Mapping
+## Semester Mapping 
 To examine the frequency of UDOIT usage across semesters from Winter 2021 to Winter 2023, we utilized **C7** to assign a semester to each scan. 
 By referring to academic calendars provided by UM for the relevant period, we mapped each scan date to its respective semester. 
 The mapping process is detailed in Table 9.
 
-**Semester Mapping by Date**
+**Semester Mapping by Date (Table 1)** 
 
 | Semester     | Start Date         | End Date           |
 |--------------|--------------------|--------------------|
@@ -39,7 +39,7 @@ To address these issues:
 - Two new columns were added to the dataset: one identifying whether a course is academic and the other assigning a semester based on course type.
 - Non-academic courses were further classified as **conforming** (confined to a single semester) or **non-conforming** (spanning multiple semesters).
 
-**Sample Questionable Dates**
+**Sample Questionable Dates (Table 2)**
 
 | Course Name          | Course ID | Date Run          |
 |----------------------|-----------|-------------------|
@@ -47,7 +47,7 @@ To address these issues:
 | PUBHLTH XXXX FA 2020 | 396XXXX | 4/12/2021 15:56   |
 | EPID XXXX FA 2020 | 378XXXX   | 4/12/2021 15:49   |
 
-**Sample (non-)Conforming Courses**
+**Sample (non-)Conforming Courses (Table 3)**
 
 | Course Name               | Course ID | Conforming? | Date           | Semester by Type |
 |---------------------------|-----------|-------------|----------------|------------------|
@@ -80,7 +80,7 @@ To address these issues:
 To analyze user behavior, we compared semester assignments by date and type. 
 - Example: A course offered in Winter 2023 had a scan run on 12/9/2022, which falls in Fall 2022 by date but is assigned to Winter 2023 by type (preparatory scan).
 
-**Sample Preparatory Scan**
+**Sample Preparatory Scan (Table 4)**
 
 | Course    | Given Semester | Date Run    | Semester by Date | Semester by Type |
 |-----------|----------------|-------------|------------------|------------------|
