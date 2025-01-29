@@ -4,16 +4,20 @@
 
 RQ5 focuses on user interaction with UDOIT, particularly in understanding the types of users. The dataset distinguishes between **UM faculty** and **UM staff**, a classification highlighted in **C12**.  
 
-Figure 30, derived from this distinction, reveals that **staff members outnumber faculty by more than three times** in the dataset.
+Figure 1, derived from this distinction, reveals that **staff members outnumber faculty by more than three times** in the dataset.
 
-## Most Frequent Users (Figure 31)
+  <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2030.png" alt="Dbeaver" width="500" height="300">
 
-Figure 31 displays the **top 18 most frequent users**, defined as those who have executed at least **10 scans**. To maintain confidentiality, **user IDs are redacted and replaced with encrypted counterparts**.  
+## Most Frequent Users (Figure 2)
+
+Figure 2 displays the **top 18 most frequent users**, defined as those who have executed at least **10 scans**. To maintain confidentiality, **user IDs are redacted and replaced with encrypted counterparts**.  
 
 This visualization highlights:
 - **Power users** and their scan frequencies.
 - The **faculty/staff distinction** among these users.
 - The **subaccounts** associated with each user.
+
+    <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2031.png" alt="Dbeaver" width="600" height="300">
 
 ### Key Insights:
 
