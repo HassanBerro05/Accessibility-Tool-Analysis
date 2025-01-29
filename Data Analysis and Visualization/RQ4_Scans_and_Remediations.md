@@ -1,41 +1,52 @@
 # Scans and Remediation: RQ4
 
-## Top 10 Scanned Courses (Table 16)
+## Top 10 Scanned Courses (Table 1)
 
-Out of the 211 unique courses in the dataset, 112 were scanned more than once. The table below shows the top 10 most scanned courses:
+In seeking answers to this RQ, we examined courses for which multiple scans were run and tracked changes in the number of errors resulting from each scan. Out of the 211 unique courses in the dataset, 112 were scanned more than once. The table below shows the top 10 most scanned courses:
 
 | **Course ID** | **Times Scanned** | **Subaccount**                             |
 |---------------|-------------------|--------------------------------------------|
-| 578403        | 29                | College of Lit, Sci, and Arts             |
-| 449512        | 24                | U-M Human Resources                        |
-| 483250        | 19                | School Of Nursing                          |
-| 587659        | 19                | U-M Human Resources                        |
-| 486100        | 19                | College of Lit, Sci, and Arts             |
-| 481307        | 18                | School Of Nursing                          |
-| 200           | 17                | University of Michigan - Ann Arbor        |
-| 512759        | 17                | School Of Nursing                          |
-| 458665        | 16                | School Of Nursing                          |
-| 458670        | 14                | School Of Nursing                          |
+| 578XXXX        | 29                | College of LXXXX             |
+| 449XXXX        | 24                | U-M HXXXX                       |
+| 483XXXX        | 19                | School Of XXXX                          |
+| 587XXXX        | 19                | U-M HXXXX                        |
+| 486XXXX        | 19                | College of LXXXX            |
+| 481XXXX        | 18                | School Of XXXX                          |
+| 20XXXX           | 17                | University of Michigan - XXXX       |
+| 51XXXX        | 17                | School Of XXXX                          |
+| 458XXXX        | 16                | School Of XXXX                          |
+| 458XXXX        | 14                | School Of XXXX                          |
 
 ## Remediation Results
 
-### Remediation Overview (Figure 29)
-
-We tracked remediation for courses with multiple scans and examined the following:
-
+### Remediation Overview (Figure 1)
+For each course identified, we tracked the number of errors for every scan to identify the following:
+- Whether errors in a course were remediated by users.
+- Whether the same course was scanned by multiple users.
+- In the event of remediation, whether remediators happened to be faculty or staff.
+- In the event of remediation, whether remediation was complete, i.e., eliminated errors from a course completely.
+  
+**Figure 1 depicts the results of this process**
+  
 - **70%** of courses with multiple scans underwent remediation.
 - **27%** of courses with multiple scans were associated with scans made by multiple users.
 - There were over three times as many **staff remediators** compared to **faculty remediators**.
 - Out of all remediated courses, **14 out of 78** were completely remediated (i.e., errors were eliminated entirely).
+- **Course Remediation Analysis:** **78 out of 211 courses** (around 37%) were remediated across the dataset.
 
-### Course Remediation Analysis
+   <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2029.png" alt="Excel Painter" width="900" height="300">
 
-- **78 out of 211 courses** (around 37%) were remediated across the dataset.
-- **Figure 29** depicts the results of remediation efforts, showing the proportion of courses that were remediated, as well as the roles of users involved in the remediation process.
 
-## Remediation by Error Type (Table 17)
+## Remediation by Error Type (Table 2)
 
-The following table outlines the remediation efforts for individual error types in remediated courses:
+The following table outlines the remediation efforts for individual error types in remediated courses.
+
+### Columns:
+Columns in the table apply to 78 remediated courses and are explained as follows:
+- Total: total number of times an error of this type was detected.
+- Complete: total number of times a detected error of this type was eliminated completely.
+- Partial: total number of times a detected error of this type was partially remediated.
+- No: total number of times a detected error of this type was not remediated.
 
 | **Error**                              | **Total** | **Complete** | **Partial** | **No** |
 |----------------------------------------|-----------|--------------|-------------|--------|
