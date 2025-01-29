@@ -60,7 +60,7 @@ The errors were grouped into five accessibility problem areas:
 The figure below illustrates:
 - **"Table Headers"** contributed the largest number of errors, followed by **"Alternative Text for Images"** and **"Page Headers/Text"**.
 - **"Video Captions"** had the fewest errors.
-- 
+ 
 <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2028.png" alt="Excel Painter" width="500" height="300">
 
 #### Table 2: Average Errors by Group
