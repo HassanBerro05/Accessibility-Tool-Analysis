@@ -15,7 +15,7 @@ later collated into a Tableau dashboard, acting as the **Process Variables (PV)*
 To assert the mapping between the functional and physical domains, we created a link between every column and the RQ it helps 
 answer. For brevity, the columns were renamed as per Table 8.
 
-**Table 8: Renamed Data Columns**
+**Renamed Data Columns**
 
 | Column Name                     | Abbreviation |
 |---------------------------------|--------------|
@@ -73,16 +73,16 @@ areas of improvement should target both. Thus, RQ6 is also influenced by C11.
 
 - **C12-C13:** These columns have a direct influence on RQ2.
 
-- **C14:** This column is linked to RQ4 as mentioned in C1 and to RQ6 in terms of understanding usersí use of the tool.
+- **C14:** This column is linked to RQ4 as mentioned in C1 and to RQ6 in terms of understanding users‚Äô use of the tool.
 
 - **C15-C28:** These columns have a straightforward link to RQ3. Moreover, more frequent errors can be targeted in training, so the 
 columns could affect RQ6.
 
 - **C29-C35:** These columns affect RQ6; understanding areas being scanned by users could give insight into the effects of training.
 
-The FR hierarchy with completed mapping is shown in Figure 14.
+**The FR hierarchy with completed mapping is shown in Figure below**
 
-**Figure 14: Complete FR Hierarchy**
+  <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2014%20Complete%20FR%20Hierarchy.png" alt="Dbeaver" width="500" height="300">
 
 # Data Analysis and Visualization
 
@@ -106,7 +106,7 @@ The mapping process is detailed in Table 9.
 | Winter 2023  | January 4, 2023    | April 27, 2023     |
 
 Two key considerations for this mapping:
-1. The term ìSummerî encompasses both Spring half-terms and Spring-Summer terms at UM.
+1. The term ‚ÄúSummer‚Äù encompasses both Spring half-terms and Spring-Summer terms at UM.
 2. Scans executed during inter-semester periods were attributed to the upcoming semester. For example, a scan on December 27, 2022, was assigned to Winter 2023.
 
 ## Visualization
@@ -164,4 +164,4 @@ Key observations:
 - Preparatory scans (Before) often occurred within three months before a semester started.
 - Retroactive scans (After) were primarily executed to update content for future offerings.
 
-**Figures 18ñ20: Timing Categories for Scans**
+**Figures 18‚Äì20: Timing Categories for Scans**
