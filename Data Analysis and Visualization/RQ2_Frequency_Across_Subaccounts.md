@@ -14,25 +14,29 @@ The results, depicted in Figure 1, reveal the following key insights:
 
 ### Sub-subaccount-Level Analysis
 Further analysis was conducted at the sub-subaccount level, representing specialized departments or units within schools or colleges 
-(e.g., the English Language Institute within LSA). As shown in Figure 22:
-- **UMSN Graduate Courses**, a subset of UMSN, produced the highest number of scans.
-- Completing the top three are **English Language Institute** (subset of LSA) and **Michigan Medicine HR** (subset of UMHR).
+(e.g., the English LXXXX within LSA). As shown in Figure 2:
+- **UMSN Graduate XXXX**, a subset of UMSN, produced the highest number of scans.
+- Completing the top three are **English LXXXX** (subset of LSA) and **Michigan MedXXXX** (subset of UMHR).
 
-**Figure 22: Number of Scans by Sub-subaccount**
+**Figure 2: Number of Scans by Sub-subaccount**
 
-*(Placeholder for visualization)*
+ <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2022.png" alt="Excel Painter" width="600" height="300">
+
 
 ## Course-Level Insights
 In addition to scan counts, we enumerated the number of unique courses associated with each subaccount and sub-subaccount. 
-Out of 211 unique courses in the dataset, Figures 23 and 24 depict the top 10 subaccounts and sub-subaccounts by course count, respectively.
+Out of 211 unique courses in the dataset, Figures 3 and 4 depict the top 10 subaccounts and sub-subaccounts by course count, respectively.
 
 Key findings:
 - The top subaccounts and sub-subaccounts by course count largely align with those by scan count.
-- An exception is the **Epidemiology Department**, which ranks third by course count but is surpassed by Michigan Medicine HR in scan frequency.
+- An exception is the **EpidXXXX Department**, which ranks third by course count but is surpassed by Michigan XXXX HR in scan frequency.
 
-**Figure 23: Number of Courses by Subaccount**  
-**Figure 24: Number of Courses by Sub-subaccount**
+**Figure 3: Number of Courses by Subaccount** 
 
-*(Placeholders for visuals)*
+ <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2023.png" alt="Excel Painter" width="600" height="300">
+ 
+**Figure 4: Number of Courses by Sub-subaccount**
+
+ <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2024.png" alt="Excel Painter" width="600" height="300">
 
 ---
