@@ -1,6 +1,6 @@
 # Scans and Users: RQ5
 
-## Faculty-Staff Distinction (Figure 30)
+## Faculty-Staff Distinction (Figure 1)
 
 RQ5 focuses on user interaction with UDOIT, particularly in understanding the types of users. The dataset distinguishes between **UM faculty** and **UM staff**, a classification highlighted in **C12**.  
 
