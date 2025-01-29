@@ -20,12 +20,12 @@ This section introduces the dataset, its origin, and the scope of analysis.
 
 | id   | user_id | course_id | date_run                  | errors | suggestions | report_json_cleaned |
 |------|---------|-----------|---------------------------|--------|-------------|----------------------|
-| 1,553 | 137,--- | 587,---   | 2022-11-01 15:09:29.497 -0400 | 2      | 6           | {"course": "FoL --- - Winter 2023-01", "user_id": 137---, "course_id": "587---", ...} |
-| 1,489 | 474,--- | 563,---   | 2022-08-11 17:04:24.342 -0400 | 80     | 152         | {"course": "F2022 --- GSI/IA Training", "user_id": 474---, "course_id": "563---", ...} |
-| 1,602 | 642,--- | 486,---   | 2022-11-09 15:11:03.196 -0500 | 0      | 6           | {"course": "LRC Tutoring Resources", "user_id": 642---, "course_id": "486---", ...} |
-| 1,445 | 21,---  | 20--      | 2022-07-07 12:44:40.374 -0400 | 544    | 680         | {"course": "Canvas ----", "user_id": 21---, "course_id": "20--", ...} |
-| 1,446 | 499,--- | 514,---   | 2022-07-13 16:30:21.402 -0400 | 580    | 289         | {"course": "ENGR --- FA 2021", "user_id": 499---, "course_id": "514---", ...} |
-| 1,447 | 177,--- | 484,---   | 2022-07-18 09:03:42.757 -0400 | 43     | 1           | {"course": "Running --- 2022-2023", "user_id": 177---, "course_id": "484---", ...} |
+| 1,553 | 137,XXXX | 587,XXXX   | 2022-11-01 15:09:29.497 -0400 | 2      | 6           | {"course": "FoL XXXX  Winter 2023-01", "user_id": 137XXXX, "course_id": "587XXXX", ...} |
+| 1,489 | 474,XXXX | 563,XXXX   | 2022-08-11 17:04:24.342 -0400 | 80     | 152         | {"course": "F2022 XXXX GSI/IA Training", "user_id": 474XXXX, "course_id": "563XXXX", ...} |
+| 1,602 | 642,XXXX | 486,XXXX   | 2022-11-09 15:11:03.196 -0500 | 0      | 6           | {"course": "LRC Tutoring Resources", "user_id": 642XXXX, "course_id": "486XXXX", ...} |
+| 1,445 | 21,XXXX  | 20XXXX      | 2022-07-07 12:44:40.374 -0400 | 544    | 680         | {"course": "Canvas XXXX", "user_id": 21XXXX, "course_id": "20XXXX", ...} |
+| 1,446 | 499,XXXX | 514,XXXX   | 2022-07-13 16:30:21.402 -0400 | 580    | 289         | {"course": "ENGR XXXX FA 2021", "user_id": 499XXXX, "course_id": "514XXXX", ...} |
+| 1,447 | 177,XXXX | 484,XXXX   | 2022-07-18 09:03:42.757 -0400 | 43     | 1           | {"course": "Running XXXX 2022-2023", "user_id": 177XXXX, "course_id": "484XXXX", ...} |
 
 
     
@@ -64,7 +64,7 @@ This section details the transformations applied to the dataset to make it ready
   
   ### Course Accessibility Report
 
-| Course Name                         | EDUC --- WN 2021 | EDUC --- WN 2021 | DEV --- N2021_SV_V1 | DEV --- N2021_SV_V1 |
+| Course Name                         | EDUC XXXX WN 2021 | EDUC XXXX WN 2021 | DEV XXXX N2021_SV_V1 | DEV XXXX N2021_SV_V1 |
 |--------------------------------------|--------------|--------------|----------------|----------------|
 | brokenLink                           | 0            | 0            | 0              | 0              |
 | aMustContainText                     | 0            | 0            | 6              | 6              |
