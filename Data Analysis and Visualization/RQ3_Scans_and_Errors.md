@@ -17,13 +17,13 @@ The following table summarizes the descriptive statistics for the total errors d
 - **Median**: 13
 - **Maximum**: 6,628 (appears twice, contributing to over 25% of all errors)
 
-About 89% of all scans in the dataset resulted in at least one error, while 81 scans yielded no errors. The most common outcome is 0 errors, while the maximum number of errors in a single scan is 6,628.
+About 89% of all scans in the dataset resulted in at least one error, while 81 scans yielded no errors. The most common outcome is 0 errors, while the maximum number of errors in a single scan is 6,628 and appears twice; those two scans alone contribute to over 25% of all errors detected and will be revisited in an upcoming section.
 
 ### Error Frequency by Type
 
-#### Figure 25: Number of Scans by Error Type
+#### Figure 1
 
-The figure below shows the distribution of error types across the scans:
+ <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%20255.png" alt="Excel Painter" width="500" height="300">
 
 - **"aMustContainText"** occurred in 414 scans, making it the most frequent error.
 - **"tableDataShouldHaveTh"** occurred in 411 scans, ranking as the second most frequent error.
@@ -32,22 +32,26 @@ These errors relate to accessibility issues:
 - **"aMustContainText"** refers to ambiguous links with no descriptive text, such as "Click Here," which are problematic for screen readers.
 - **"tableDataShouldHaveTh"** refers to tables without headers, which are essential for explaining the data in rows and columns.
 
-#### Figure 26: Total Error Occurrence
+#### Figure 2
+
+ <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2026.png" alt="Excel Painter" width="500" height="300">
 
 This figure shows the total occurrences of each error type, highlighting the discrepancy between errors in terms of total occurrence, with **"imgAltIsDifferent"** being the most frequent.
 
 ## Error Grouping
 
-### Grouping Errors by Accessibility Problem Areas (Figure 27)
+### Grouping Errors by Accessibility Problem Areas 
 
 The errors were grouped into five accessibility problem areas:
-1. **Alternative Text for Images** – issues with missing or incorrect alt text for images.
-2. **Table Headers** – missing headers for tables.
-3. **Links** – ambiguous or missing descriptive text in links.
-4. **Page Headers/Text** – issues related to page structure and text color contrast.
-5. **Video Captions** – missing or faulty video captions.
+1. **Alternative Text for Images** â€“ issues with missing or incorrect alt text for images.
+2. **Table Headers** â€“ missing headers for tables.
+3. **Links** â€“ ambiguous or missing descriptive text in links.
+4. **Page Headers/Text** â€“ issues related to page structure and text color contrast.
+5. **Video Captions** â€“ missing or faulty video captions.
 
-#### Figure 27: Errors Grouped by Accessibility Problem Areas
+#### Figure 3: Errors Grouped by Accessibility Problem Areas
+
+<img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2027.png" alt="Excel Painter" width="500" height="300">
 
 ### Error Group-Level Trends (Figure 28 and Table 15)
 
