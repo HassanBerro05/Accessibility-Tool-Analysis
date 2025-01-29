@@ -3,14 +3,14 @@
 
 ## Subaccount-Level Analysis
 To investigate the number of scans across subaccounts, we analyzed the distribution of UDOIT scans over the past two years. 
-The results, depicted in Figure 21, reveal the following key insights:
-- The majority of scans originated from courses within the **University of Michigan School of Nursing (UMSN)**.
-- The **College of Literature, Science, and the Arts (LSA)** ranks second, with scan counts decreasing rapidly beyond these top contributors.
+The results, depicted in Figure 1, reveal the following key insights:
+- The majority of scans originated from courses within the **University of Michigan School of XXXX**.
+- The **College of LitXXXX)** ranks second, with scan counts decreasing rapidly beyond these top contributors.
 - Collectively, the top two subaccounts account for approximately **57%** of all scans.
 
-**Figure 21: Number of Scans by Subaccount**
+**Figure 1: Number of Scans by Subaccount**
 
-*(Placeholder for visualization)*
+ <img src="https://github.com/HassanBerro05/Accessibility-Tool-Analysis/blob/main/Viz/Figure%2021.png" alt="Excel Painter" width="500" height="300">
 
 ### Sub-subaccount-Level Analysis
 Further analysis was conducted at the sub-subaccount level, representing specialized departments or units within schools or colleges 
