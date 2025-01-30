@@ -7,8 +7,8 @@ The preceding analysis provided extensive information about the usage of UDOIT o
 - Between 1/1/2021 and 20/1/2023, UDOIT was scanned 731 times.
 - The pandemic had a direct effect on the timing of scans. Most scans took place during Winter 2021 and Summer 2021.
 - A large percentage of scans were executed before their intended semesters, almost as many as those run during their intended semesters.
-- On a subaccount level, most scans were contributed by UMSN, LSA, and the School of Public Health, respectively.
-- On a sub-subaccount level, most scans were attributed to UMSN graduate courses, English Language Institute, and Michigan Medicine HR, respectively.
+- On a subaccount level, most scans were contributed by UMSX, LXXX, and the School of PXXXX, respectively.
+- On a sub-subaccount level, most scans were attributed to UMSX XXXX, English LXXXX, and Michigan MedXXXX, respectively.
 - Most users running scans were staff rather than faculty.
 - User 83, a staff member at the School of Nursing, was the main identified power user. Most power users were staff members.
 - The scans included 211 courses at UM, most of which were academic at 135.
@@ -20,7 +20,7 @@ The preceding analysis provided extensive information about the usage of UDOIT o
 - Most errors remediated pertained to alternative text for images. Most errors not remediated related to issues with video captions.
 - Adjusting training to include course design could increase the efficacy of UDOIT.
 
-In revealing who used the tool, how the tool was used, and when the tool was used, the analysis provided answers to all six RQ posed at the beginning of this project study. The analysis offers the necessary insight ITS needs to assess the efficacy of UDOIT as an accessibility tool at UM and should be key in driving ITS’ future efforts towards enhancing digital accessibility.
+In revealing who used the tool, how the tool was used, and when the tool was used, the analysis provided answers to all six RQ posed at the beginning of this project study. The analysis offers the necessary insight ITS needs to assess the efficacy of UDOIT as an accessibility tool at UM and should be key in driving ITSâ€™ future efforts towards enhancing digital accessibility.
 
 ## Recommendations
 
