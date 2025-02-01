@@ -101,10 +101,10 @@ This section details the transformations applied to the dataset to make it ready
 
 | Sub-subaccount from UDOIT | Subaccount            |
 |-----------|---------------------------|
-| Psychiatry Department    | Medical School    |
-| Astronomy Department    | College of Lit, Sci, and Arts    |
-| Materials Science & Engin    | College Of Engineering   |
-| Disability   | Non-Academic Program Courses   |
+| PXXXX Department    | MedXXXX    |
+| AsXXXX Department    | College of LXXXX    |
+| Materials ScXXXX    | College Of XXXX   |
+| DisXXXX   | Non-Academic XXXX   |
 
 
 ### 3.3 Anonymizing Users
